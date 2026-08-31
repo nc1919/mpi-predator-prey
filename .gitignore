@@ -1,0 +1,19 @@
+# Builds
+*.o
+*.a
+*.so
+predprey_actor*
+single_process/predator_prey
+single_process/predator_prey_seq
+single_process/predator_prey_seq_run
+
+# Scheduler and experiment output
+*.out
+*.err
+*.log
+.runs/
+predprey_runs/
+predator_prey/logs/
+
+# Local validation
+.validation/
